@@ -1,0 +1,1 @@
+/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_msgs/share/roseus/ros/dynamixel_workbench_msgs/msg/XL320.l

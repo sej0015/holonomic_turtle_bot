@@ -1,0 +1,1 @@
+/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_msgs/share/common-lisp/ros/dynamixel_workbench_msgs/msg/MX2Ext.lisp

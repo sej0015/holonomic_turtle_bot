@@ -1,0 +1,8 @@
+prefix=/home/smart5/dynamixel-workbench/install
+
+Name: burger_joy
+Description: Description of burger_joy
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

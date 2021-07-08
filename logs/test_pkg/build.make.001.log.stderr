@@ -1,0 +1,7 @@
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kdynamixel_workbench_msgs/WheelCommand: No such file or directory
+ #include [01;31m[K<dynamixel_workbench_msgs/WheelCommand>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/test_pkg_node.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/test_pkg_node.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,12 @@
+[31m[1mCMake Error[0m at /home/smart5/dynamixel-workbench/src/test_pkg/CMakeLists.txt:138 (add_executable):
+  Cannot find source file:
+
+    holonomic_pkg_node
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: test_pkg_node
+CMake Error: Cannot determine link language for target "test_pkg_node".
+make: *** [cmake_check_build_system] Error 1

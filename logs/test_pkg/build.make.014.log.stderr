@@ -1,0 +1,12 @@
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:74:0:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "ROS_DEBUG"
+ 
+ 
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:48:5:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_DEBUG[m[K’ was not declared in this scope
+     [01;31m[KROS_DEBUG[m[K("value"
+     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:48:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:48:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+make[2]: *** [CMakeFiles/test_pkg_node.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/test_pkg_node.dir/all] Error 2
+make: *** [all] Error 2

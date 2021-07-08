@@ -1,0 +1,13 @@
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:42:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct dynamixel_workbench_msgs::DynamixelCommand[m[K’ has no member named ‘[01m[Kid[m[K’
+     dynamixel_service_call.[01;31m[Kid[m[K = wheel_id;
+                            [01;31m[K^~[m[K
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:43:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct dynamixel_workbench_msgs::DynamixelCommand[m[K’ has no member named ‘[01m[Kaddr_name[m[K’
+     dynamixel_service_call.[01;31m[Kaddr_name[m[K = wheel_cmd;
+                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:44:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct dynamixel_workbench_msgs::DynamixelCommand[m[K’ has no member named ‘[01m[Kvalue[m[K’
+     dynamixel_service_call.[01;31m[Kvalue[m[K = wheel_vel_out;
+                            [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/test_pkg_node.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/test_pkg_node.dir/all] Error 2
+make: *** [all] Error 2

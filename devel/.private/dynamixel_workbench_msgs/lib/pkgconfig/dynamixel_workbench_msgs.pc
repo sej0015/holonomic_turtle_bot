@@ -1,0 +1,8 @@
+prefix=/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_msgs
+
+Name: dynamixel_workbench_msgs
+Description: Description of dynamixel_workbench_msgs
+Version: 2.0.2
+Cflags: -I/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_msgs/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs message_runtime

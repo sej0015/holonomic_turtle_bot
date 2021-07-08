@@ -1,0 +1,6 @@
+devel_space: /home/smart5/dynamixel-workbench/devel
+install: false
+install_space: /home/smart5/dynamixel-workbench/install
+profile: default
+source_space: /home/smart5/dynamixel-workbench/src
+workspace: /home/smart5/dynamixel-workbench

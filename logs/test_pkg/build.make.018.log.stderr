@@ -1,0 +1,15 @@
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:15:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+   [01;31m[Kint32[m[K wheel_vel_out = 0;
+   [01;31m[K^~~~~[m[K
+   [32m[Krintf32[m[K
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:45:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_vel_out[m[K’ was not declared in this scope
+     dynamixel_service_call.request.value = [01;31m[Kwheel_vel_out[m[K;
+                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:[m[K In function ‘[01m[Kvoid joy_topic_Callback(const ConstPtr&)[m[K’:
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:64:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_vel_out[m[K’ was not declared in this scope
+   [01;31m[Kwheel_vel_out[m[K = round(cmd_vel/cmd_vel_max * maxVel);
+   [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/test_pkg_node.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/test_pkg_node.dir/all] Error 2
+make: *** [all] Error 2

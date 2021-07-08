@@ -1,0 +1,5 @@
+burger_joy
+/home/smart5/dynamixel-workbench/devel/.private/burger_joy/cmake.lock /home/smart5/dynamixel-workbench/devel/./cmake.lock
+/home/smart5/dynamixel-workbench/devel/.private/burger_joy/share/burger_joy/cmake/burger_joyConfig-version.cmake /home/smart5/dynamixel-workbench/devel/share/burger_joy/cmake/burger_joyConfig-version.cmake
+/home/smart5/dynamixel-workbench/devel/.private/burger_joy/share/burger_joy/cmake/burger_joyConfig.cmake /home/smart5/dynamixel-workbench/devel/share/burger_joy/cmake/burger_joyConfig.cmake
+/home/smart5/dynamixel-workbench/devel/.private/burger_joy/lib/pkgconfig/burger_joy.pc /home/smart5/dynamixel-workbench/devel/lib/pkgconfig/burger_joy.pc

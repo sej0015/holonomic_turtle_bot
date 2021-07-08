@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/smart5/dynamixel-workbench/devel/.private/dynamixel_sdk/setup.sh

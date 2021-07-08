@@ -1,0 +1,41 @@
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:16:35:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kint[m[K’ to non-scalar type ‘[01m[Kstd_msgs::Int32 {aka std_msgs::Int32_<std::allocator<void> >}[m[K’ requested
+   std_msgs::Int32 wheel_vel_out = [01;31m[K0[m[K;
+                                   [01;31m[K^[m[K
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:46:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd_msgs::Int32 {aka std_msgs::Int32_<std::allocator<void> >}[m[K’ to ‘[01m[Kdynamixel_workbench_msgs::DynamixelCommandRequest_<std::allocator<void> >::_value_type {aka int}[m[K’ in assignment
+     dynamixel_service_call.request.value = [01;31m[Kwheel_vel_out[m[K;
+                                            [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:4[m[K:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd_msgs::Int32 {aka std_msgs::Int32_<std::allocator<void> >}[m[K’ [[01;35m[K-Wformat=[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:52:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+       [01;36m[KROS_INFO[m[K("Cmd Vel: %i", wheel_vel_out);
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:[m[K In function ‘[01m[Kvoid joy_topic_Callback(const ConstPtr&)[m[K’:
+[01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:65:53:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::Int32 {aka std_msgs::Int32_<std::allocator<void> >}[m[K’ and ‘[01m[Kdouble[m[K’)
+   wheel_vel_out = round(cmd_vel/cmd_vel_max * maxVel[01;31m[K)[m[K;
+                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp:9:0[m[K:
+[01m[K/opt/ros/melodic/include/std_msgs/Int32.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: constexpr std_msgs::Int32_<std::allocator<void> >& std_msgs::Int32_<std::allocator<void> >::operator=(const std_msgs::Int32_<std::allocator<void> >&)
+ struct [01;36m[KInt32_[m[K
+        [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/melodic/include/std_msgs/Int32.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst std_msgs::Int32_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/melodic/include/std_msgs/Int32.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: constexpr std_msgs::Int32_<std::allocator<void> >& std_msgs::Int32_<std::allocator<void> >::operator=(std_msgs::Int32_<std::allocator<void> >&&)
+[01m[K/opt/ros/melodic/include/std_msgs/Int32.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kstd_msgs::Int32_<std::allocator<void> >&&[m[K’
+make[2]: *** [CMakeFiles/test_pkg_node.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/test_pkg_node.dir/all] Error 2
+make: *** [all] Error 2

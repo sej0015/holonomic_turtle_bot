@@ -1,0 +1,1 @@
+/home/smart5/dynamixel-workbench/devel/.private/burger_joy/share/burger_joy/cmake/burger_joyConfig-version.cmake
