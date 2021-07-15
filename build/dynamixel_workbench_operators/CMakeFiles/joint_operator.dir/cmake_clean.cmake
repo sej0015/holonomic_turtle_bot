@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/joint_operator.dir/src/joint_operator.cpp.o"
-  "/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_operators/lib/dynamixel_workbench_operators/joint_operator.pdb"
-  "/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_operators/lib/dynamixel_workbench_operators/joint_operator"
+  "/home/turtle/holonomic_turtle_bot/devel/lib/dynamixel_workbench_operators/joint_operator.pdb"
+  "/home/turtle/holonomic_turtle_bot/devel/lib/dynamixel_workbench_operators/joint_operator"
 )
 
 # Per-language clean rules from dependency scanning.

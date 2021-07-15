@@ -10,9 +10,6 @@
 
 //Declare some variables
   int maxVel = 255;
-  uint8_t left_wheel_id = 3;
-  uint8_t right_wheel_id = 2;
-  uint8_t back_wheel_id = 1;
   std::string wheel_cmd = "Goal_Velocity";
   int32_t left_vel_out = 0;
   int32_t right_vel_out = 0;
@@ -36,6 +33,20 @@ int main(int argc, char** argv)
   std::string node_name = "holonomic_pkg_node";
   ros::init(argc, argv, node_name);
   ros::NodeHandle nh;
+
+  //Declare and read Varaibles that are created in ~/turtle_config/turtle_config.yaml
+  int left_wheel_id;
+  int right_wheel_id;
+  int back_wheel_id;
+  int temp_id;
+
+
+  nh.getParam(node_name+"/right_wheel_id", right_wheel_id );
+  //right_wheel_id = temp_id;
+  nh.getParam(node_name+"/left_wheel_id",left_wheel_id);
+  //left_wheel_id = temp_id;
+  nh.getParam(node_name+"/back_wheel_id",back_wheel_id);
+  //back_wheel_id = temp_id;
 
   // Initialize publishers and subscribers
   ros::Subscriber cmd_vel_sub = nh.subscribe(joy_topic_name, 1, joy_topic_Callback);
@@ -80,9 +91,9 @@ int main(int argc, char** argv)
 
 void joy_topic_Callback(const geometry_msgs::Twist::ConstPtr& msg)
 {
-  cmd_vel_x = msg -> linear.x*2;
-  cmd_vel_y = msg -> linear.y*-2;
-  cmd_omega = msg -> angular.z*2;
+  cmd_vel_x = msg -> linear.x*-2;
+  cmd_vel_y = msg -> linear.y*2;
+  cmd_omega = msg -> angular.z*-2;
   double norm = sqrt(cmd_vel_x*cmd_vel_x + cmd_vel_y*cmd_vel_y);
   double unit_x = cmd_vel_x /(norm);
   double unit_y = cmd_vel_y /(norm);

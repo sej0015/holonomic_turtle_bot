@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_workbench_controllers.cpp.o"
   "CMakeFiles/dynamixel_workbench_controllers.dir/src/trajectory_generator.cpp.o"
-  "/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_controllers/lib/dynamixel_workbench_controllers/dynamixel_workbench_controllers.pdb"
-  "/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_controllers/lib/dynamixel_workbench_controllers/dynamixel_workbench_controllers"
+  "/home/turtle/holonomic_turtle_bot/devel/lib/dynamixel_workbench_controllers/dynamixel_workbench_controllers.pdb"
+  "/home/turtle/holonomic_turtle_bot/devel/lib/dynamixel_workbench_controllers/dynamixel_workbench_controllers"
 )
 
 # Per-language clean rules from dependency scanning.

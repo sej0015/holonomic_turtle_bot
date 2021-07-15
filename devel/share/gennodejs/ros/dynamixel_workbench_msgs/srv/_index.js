@@ -1,1 +1,10 @@
-/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_msgs/share/gennodejs/ros/dynamixel_workbench_msgs/srv/_index.js
+
+"use strict";
+
+let DynamixelCommand = require('./DynamixelCommand.js')
+let GetDynamixelInfo = require('./GetDynamixelInfo.js')
+
+module.exports = {
+  DynamixelCommand: DynamixelCommand,
+  GetDynamixelInfo: GetDynamixelInfo,
+};

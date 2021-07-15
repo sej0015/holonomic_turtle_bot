@@ -1,1 +1,8 @@
-/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_operators/lib/pkgconfig/dynamixel_workbench_operators.pc
+prefix=/home/turtle/holonomic_turtle_bot/devel
+
+Name: dynamixel_workbench_operators
+Description: Description of dynamixel_workbench_operators
+Version: 2.2.1
+Cflags: -I/home/turtle/holonomic_turtle_bot/src/dynamixel_workbench_operators/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_srvs sensor_msgs trajectory_msgs geometry_msgs cmake_modules

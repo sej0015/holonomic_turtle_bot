@@ -1,1 +1,15 @@
-/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_msgs/share/common-lisp/ros/dynamixel_workbench_msgs/srv/_package.lisp
+(cl:defpackage dynamixel_workbench_msgs-srv
+  (:use )
+  (:export
+   "DYNAMIXELCOMMAND"
+   "<DYNAMIXELCOMMAND-REQUEST>"
+   "DYNAMIXELCOMMAND-REQUEST"
+   "<DYNAMIXELCOMMAND-RESPONSE>"
+   "DYNAMIXELCOMMAND-RESPONSE"
+   "GETDYNAMIXELINFO"
+   "<GETDYNAMIXELINFO-REQUEST>"
+   "GETDYNAMIXELINFO-REQUEST"
+   "<GETDYNAMIXELINFO-RESPONSE>"
+   "GETDYNAMIXELINFO-RESPONSE"
+  ))
+

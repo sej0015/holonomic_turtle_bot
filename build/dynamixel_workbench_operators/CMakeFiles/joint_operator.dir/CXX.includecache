@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/smart5/dynamixel-workbench/src/dynamixel_workbench_operators/include/dynamixel_workbench_operators/joint_operator.h
+/home/turtle/holonomic_turtle_bot/src/dynamixel_workbench_operators/include/dynamixel_workbench_operators/joint_operator.h
 ros/ros.h
 -
 yaml-cpp/yaml.h
@@ -18,9 +18,9 @@ trajectory_msgs/JointTrajectoryPoint.h
 std_srvs/Trigger.h
 -
 
-/home/smart5/dynamixel-workbench/src/dynamixel_workbench_operators/src/joint_operator.cpp
+/home/turtle/holonomic_turtle_bot/src/dynamixel_workbench_operators/src/joint_operator.cpp
 dynamixel_workbench_operators/joint_operator.h
-/home/smart5/dynamixel-workbench/src/dynamixel_workbench_operators/src/dynamixel_workbench_operators/joint_operator.h
+/home/turtle/holonomic_turtle_bot/src/dynamixel_workbench_operators/src/dynamixel_workbench_operators/joint_operator.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

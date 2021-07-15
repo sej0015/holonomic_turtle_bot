@@ -1,1 +1,8 @@
-/home/smart5/dynamixel-workbench/devel/.private/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc
+prefix=/home/turtle/holonomic_turtle_bot/devel
+
+Name: dynamixel_sdk
+Description: Description of dynamixel_sdk
+Version: 3.7.51
+Cflags: -I/home/turtle/holonomic_turtle_bot/src/dynamixel_sdk/include
+Libs: -L${prefix}/lib -ldynamixel_sdk
+Requires: roscpp rospy

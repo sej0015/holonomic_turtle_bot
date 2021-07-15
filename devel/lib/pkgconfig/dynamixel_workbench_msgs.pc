@@ -1,1 +1,8 @@
-/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_msgs/lib/pkgconfig/dynamixel_workbench_msgs.pc
+prefix=/home/turtle/holonomic_turtle_bot/devel
+
+Name: dynamixel_workbench_msgs
+Description: Description of dynamixel_workbench_msgs
+Version: 2.0.2
+Cflags: -I/home/turtle/holonomic_turtle_bot/devel/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs message_runtime

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include;/usr/include/eigen3".split(
 PROJECT_CATKIN_DEPENDS = "roscpp;sensor_msgs;geometry_msgs;dynamixel_workbench_msgs;trajectory_msgs;dynamixel_workbench_toolbox;cmake_modules".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "dynamixel_workbench_controllers"
-PROJECT_SPACE_DIR = "/home/smart5/dynamixel-workbench/install"
+PROJECT_SPACE_DIR = "/home/turtle/holonomic_turtle_bot/install"
 PROJECT_VERSION = "2.2.1"

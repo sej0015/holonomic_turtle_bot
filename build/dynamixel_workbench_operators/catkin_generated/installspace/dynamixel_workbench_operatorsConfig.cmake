@@ -67,14 +67,14 @@ set(dynamixel_workbench_operators_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(dynamixel_workbench_operators_SOURCE_PREFIX /home/smart5/dynamixel-workbench/src/dynamixel_workbench_operators)
-  set(dynamixel_workbench_operators_DEVEL_PREFIX /home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_operators)
+  set(dynamixel_workbench_operators_SOURCE_PREFIX /home/turtle/holonomic_turtle_bot/src/dynamixel_workbench_operators)
+  set(dynamixel_workbench_operators_DEVEL_PREFIX /home/turtle/holonomic_turtle_bot/devel)
   set(dynamixel_workbench_operators_INSTALL_PREFIX "")
   set(dynamixel_workbench_operators_PREFIX ${dynamixel_workbench_operators_DEVEL_PREFIX})
 else()
   set(dynamixel_workbench_operators_SOURCE_PREFIX "")
   set(dynamixel_workbench_operators_DEVEL_PREFIX "")
-  set(dynamixel_workbench_operators_INSTALL_PREFIX /home/smart5/dynamixel-workbench/install)
+  set(dynamixel_workbench_operators_INSTALL_PREFIX /home/turtle/holonomic_turtle_bot/install)
   set(dynamixel_workbench_operators_PREFIX ${dynamixel_workbench_operators_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/smart5/dynamixel-workbench/install/lib;/home/smart5/dynamixel-workbench/devel/lib;/home/smart5/turtlebot_sim/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/turtle/holonomic_turtle_bot/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

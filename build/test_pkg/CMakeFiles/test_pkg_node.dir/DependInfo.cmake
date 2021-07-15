@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/smart5/dynamixel-workbench/src/test_pkg/src/test_node.cpp" "/home/smart5/dynamixel-workbench/build/test_pkg/CMakeFiles/test_pkg_node.dir/src/test_node.cpp.o"
+  "/home/turtle/holonomic_turtle_bot/src/test_pkg/src/test_node.cpp" "/home/turtle/holonomic_turtle_bot/build/test_pkg/CMakeFiles/test_pkg_node.dir/src/test_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_msgs/include"
+  "/home/turtle/holonomic_turtle_bot/devel/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

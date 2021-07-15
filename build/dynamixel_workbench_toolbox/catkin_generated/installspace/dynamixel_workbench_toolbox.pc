@@ -1,4 +1,4 @@
-prefix=/home/smart5/dynamixel-workbench/install
+prefix=/home/turtle/holonomic_turtle_bot/install
 
 Name: dynamixel_workbench_toolbox
 Description: Description of dynamixel_workbench_toolbox

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/find_dynamixel.dir/src/find_dynamixel.cpp.o"
-  "/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_controllers/lib/dynamixel_workbench_controllers/find_dynamixel.pdb"
-  "/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_controllers/lib/dynamixel_workbench_controllers/find_dynamixel"
+  "/home/turtle/holonomic_turtle_bot/devel/lib/dynamixel_workbench_controllers/find_dynamixel.pdb"
+  "/home/turtle/holonomic_turtle_bot/devel/lib/dynamixel_workbench_controllers/find_dynamixel"
 )
 
 # Per-language clean rules from dependency scanning.

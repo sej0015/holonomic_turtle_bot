@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_pkg_node.dir/src/test_node.cpp.o"
-  "/home/smart5/dynamixel-workbench/devel/.private/test_pkg/lib/test_pkg/test_pkg_node.pdb"
-  "/home/smart5/dynamixel-workbench/devel/.private/test_pkg/lib/test_pkg/test_pkg_node"
+  "/home/turtle/holonomic_turtle_bot/devel/lib/test_pkg/test_pkg_node.pdb"
+  "/home/turtle/holonomic_turtle_bot/devel/lib/test_pkg/test_pkg_node"
 )
 
 # Per-language clean rules from dependency scanning.

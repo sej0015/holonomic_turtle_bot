@@ -1,1 +1,7 @@
-/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_msgs/share/gennodejs/ros/dynamixel_workbench_msgs/_index.js
+
+"use strict";
+
+module.exports = {
+  msg: require('./msg/_index.js'),
+  srv: require('./srv/_index.js')
+};

@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DHAVE_NEW_YAMLCPP -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"dynamixel_workbench_controllers\"
 
-CXX_INCLUDES = -I/home/smart5/dynamixel-workbench/src/dynamixel_workbench_controllers/include -I/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_msgs/include -I/home/smart5/dynamixel-workbench/src/dynamixel_sdk/include -I/home/smart5/dynamixel-workbench/src/dynamixel_workbench_toolbox/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/turtle/holonomic_turtle_bot/src/dynamixel_workbench_controllers/include -I/home/turtle/holonomic_turtle_bot/devel/include -I/home/turtle/holonomic_turtle_bot/src/dynamixel_workbench_toolbox/include -I/home/turtle/holonomic_turtle_bot/src/dynamixel_sdk/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

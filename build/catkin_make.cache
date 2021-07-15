@@ -1,0 +1,2 @@
+burger_joy:dynamixel_sdk:dynamixel_workbench:dynamixel_workbench_controllers:dynamixel_workbench_msgs:dynamixel_workbench_operators:dynamixel_workbench_toolbox:test_pkg
+-DCATKIN_DEVEL_PREFIX=/home/turtle/holonomic_turtle_bot/devel -DCMAKE_INSTALL_PREFIX=/home/turtle/holonomic_turtle_bot/install -G Unix Makefiles

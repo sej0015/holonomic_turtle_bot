@@ -1,1 +1,8 @@
-/home/smart5/dynamixel-workbench/devel/.private/burger_joy/lib/pkgconfig/burger_joy.pc
+prefix=/home/turtle/holonomic_turtle_bot/devel
+
+Name: burger_joy
+Description: Description of burger_joy
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

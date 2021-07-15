@@ -1,1 +1,4 @@
-/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_msgs/share/common-lisp/ros/dynamixel_workbench_msgs/msg/_package_DynamixelStateList.lisp
+(cl:in-package dynamixel_workbench_msgs-msg)
+(cl:export '(DYNAMIXEL_STATE-VAL
+          DYNAMIXEL_STATE
+))

@@ -8,8 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o"
   "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o"
   "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o"
-  "/home/smart5/dynamixel-workbench/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.pdb"
-  "/home/smart5/dynamixel-workbench/devel/.private/dynamixel_sdk/lib/libdynamixel_sdk.so"
+  "/home/turtle/holonomic_turtle_bot/devel/lib/libdynamixel_sdk.pdb"
+  "/home/turtle/holonomic_turtle_bot/devel/lib/libdynamixel_sdk.so"
 )
 
 # Per-language clean rules from dependency scanning.

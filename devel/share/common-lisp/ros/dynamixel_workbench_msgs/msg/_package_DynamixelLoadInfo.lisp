@@ -1,1 +1,8 @@
-/home/smart5/dynamixel-workbench/devel/.private/dynamixel_workbench_msgs/share/common-lisp/ros/dynamixel_workbench_msgs/msg/_package_DynamixelLoadInfo.lisp
+(cl:in-package dynamixel_workbench_msgs-msg)
+(cl:export '(DEVICE_NAME-VAL
+          DEVICE_NAME
+          BAUD_RATE-VAL
+          BAUD_RATE
+          PROTOCOL_VERSION-VAL
+          PROTOCOL_VERSION
+))
