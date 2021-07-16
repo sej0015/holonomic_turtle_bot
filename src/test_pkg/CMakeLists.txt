@@ -137,6 +137,7 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
  add_executable(test_pkg_node src/test_node.cpp)
  add_executable(holonomic_pkg_node src/holonomic_node.cpp)
+ add_executable(proportional_control_node src/proportional_control_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -149,11 +150,17 @@ include_directories(
  add_dependencies(test_pkg_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
  add_dependencies(holonomic_pkg_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
+add_dependencies(proportional_control_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
+
 ## Specify libraries to link a library or executable target against
  target_link_libraries(${PROJECT_NAME}_node
    ${catkin_LIBRARIES}
  )
  target_link_libraries(holonomic_pkg_node
+   ${catkin_LIBRARIES}
+ )
+ target_link_libraries(proportional_control_node
    ${catkin_LIBRARIES}
  )
 
